@@ -1,0 +1,122 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.all-btn{
+    width: 300px;
+    background: rgb(63, 63, 65);
+    padding: 10px;
+    
+    margin-left: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border: 2px solid black;
+   
+}
+body{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+height: 100vh;
+width: 100vw;
+    background: rgb(0, 0, 0);
+    font-size: 30px;
+}
+button{
+    height:63px;
+    width: 63px;
+    font-size: 23px;
+    margin-bottom: 5px;
+    background: linear-gradient(180deg, #282828,#202020);
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow:inset -8px 0 8px rgba(0, 0, 0, 0.15),inset  0 -8px 8px rgba(0, 0, 0, 0.25)
+    , 0 0 0 2px rgb(0,0,0,0.75),10px,20px,25px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    font-style: bold;
+    color: #bdb6b6;
+   
+   
+    
+}
+button span i{
+    position: relative;
+   
+}
+span::before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 14px;
+    right: 12px;
+    background: linear-gradient(90deg, #232323, #4a4a4a);
+    border-radius: 10px;
+    box-shadow: -10px -10px -10px rgba(225, 225, 225, 0.25),10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0009;
+}
+
+.main{
+    width: 350px;
+    background: rgb(63, 63, 65);
+    padding: 10px;
+    position: relative;
+    border-radius: 1em;
+    
+    
+    
+ }
+ .screen{
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
+     padding: 10px;
+     height: 150px;
+     text-align: center;
+     width: 300px;
+     margin-left: 15px;
+     border-top-left-radius:1em ;
+     border-top-right-radius: 1em;
+     background: rgb(63, 63, 65);
+     border: 2px solid black;
+     
+    
+ }
+.equal{
+    position: absolute;
+    width: 135px;
+    margin-left: 5px;
+    color: #ffae00;
+}
+.plus{
+    height: 130px;
+    position: absolute;
+    color: #ffae00;
+}
+
+.cut{
+   
+    color: #ffae00;;
+}
+.all-del{
+    color: #ffae00;;
+}
+.prcnt{
+    color: #ffae00;
+}
+.divide{
+    color: #ffae00;
+}
+.minus{
+    color: #ffae00;
+}
+.multiply{
+    color: #ffae00;
+}
